@@ -13,6 +13,9 @@ h1 {
 }
 
 h2 {
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h3 {
@@ -44,7 +47,7 @@ ol {
   padding-left: 24px;
 }
 blockquote {
-  font-size: italic;
+  font-style: italic;
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
@@ -71,12 +74,16 @@ hr {
 }
 
 a {
+  color: RoyalBlue;
+  transition: all 0.1s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:focus,
+a:hover {
+  color: crimson;
 }
 
 a:visited,
 a:active {
+  color: blueviolet;
 }
